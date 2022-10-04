@@ -1,0 +1,236 @@
+:root {
+    --title-color: #000000;
+    --secondary-title-color: #263238;
+    --text-color: #8F95A5;
+    --cost-backround-color: #EEEEEE;
+    --skills-backround-color: #F5F5F5;
+    --button-backround: #263238;
+    --button-text-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.50;
+    color: var(--title-color);
+}
+
+/* --------------------header------------------ */
+.logo {
+    font-size: 36px;
+    line-height: 1.50;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+}
+
+.logo-accent {
+    color: #939393;
+}
+
+.header-list {}
+
+.header-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.50;
+    color: var(--secondary-title-color);
+}
+
+.button-light {
+    font-family: inherit;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.50;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    background-color: transparent;
+    border: 2px solid var(--secondary-title-color);
+    border-radius: 10px;
+}
+
+/* -------------------hero------------------- */
+.hero-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+    color: var(--title-color);
+}
+
+.hero-text {
+    font-size: 24px;
+    line-height: 1.50;
+    color: var(--text-color);
+}
+
+.button-hero {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.50;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--button-text-color);
+    background: var(--button-backround);
+    border-radius: 10px;
+}
+
+/* ---------------------skills------------- */
+.skills-title {
+    text-align: center;
+}
+
+.skills-title {}
+
+.skill-list {}
+
+.skill-item {
+    background: var(--skills-backround-color);
+    border-radius: 10px;
+}
+
+.skill-item-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.50;
+    color: var(--secondary-title-color);
+}
+
+.skill-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+.button-skills {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.50;
+    color: var(--button-text-color);
+    background: var(--button-backround);
+    border-radius: 10px;
+}
+
+/* ----------------about us-------------------------- */
+.about-title {}
+
+.about-text {
+    font-size: 20px;
+    line-height: 1.80;
+    color: var(--text-color);
+}
+
+.about-list {}
+
+.about-item {}
+
+.about-number {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.50;
+    color: #2A3246;
+}
+
+.about-number-text {
+    font-size: 20px;
+    line-height: 1.50;
+    color: var(--text-color);
+}
+
+/* --------------------------------pricing----------- */
+
+.pricing-title {
+    text-align: center;
+}
+
+.pricing-list {}
+
+.pricing-item {}
+
+.pricing-item-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.60;
+    text-transform: capitalize;
+    color: var(--secondary-title-color);
+}
+
+.pricing-text {
+    font-size: 20px;
+    line-height: 1.50;
+    color: var(--text-color);
+}
+
+.pricing-cost {
+    font-size: 18px;
+    line-height: 1.50;
+    text-align: center;
+    color: #546269;
+    background-color: var(--cost-backround-color);
+    border-radius: 5px;
+}
+
+.pricing-cost span {
+    font-size: 24px;
+    line-height: 1.50;
+    text-align: center;
+    color: var(--secondary-title-color);
+}
+
+/* ----------------------------contact-------------- */
+
+.contact-title {}
+
+.contact-text {
+    font-size: 20px;
+    line-height: 1.50;
+
+    color: var(--text-color);
+}
+
+.input-text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--text-color);
+}
+
+.button-contact {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--button-text-color);
+    background: var(--button-backround);
+    border-radius: 10px;
+}
+
+/* ------------------------foooter----------------- */
+
+.footer-link {
+    font-size: 24px;
+    line-height: 1.50;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
