@@ -161,7 +161,11 @@ img {
 }
 
 /* ---------------------skills------------- */
-.section{padding: 90px 0;}
+.section {
+    padding: 90px 0;
+
+}
+
 .skills-title {
     text-align: center;
     margin-bottom: 60px;
@@ -196,9 +200,11 @@ img {
     flex-direction: row-reverse;
     align-items: center;
 }
-.skils-info{
+
+.skils-info {
     padding: 24px 18px;
 }
+
 .skill-item {
     background: var(--skills-backround-color);
     border-radius: 10px;
@@ -233,23 +239,41 @@ img {
 }
 
 /* ----------------about us-------------------------- */
-.about-title {}
+.about-container {
+    display: flex;
+}
+
+.about-title {
+    margin-bottom: 60px;
+}
 
 .about-text {
     font-size: 20px;
     line-height: 1.80;
     color: var(--text-color);
+    margin-bottom: 30px;
 }
 
-.about-list {}
+.about-info {
+    margin-right: 146px;
+}
 
-.about-item {}
+.about-list {
+    display: flex;
+    gap: 131px;
+}
+
+.about-item {
+    text-align: center;
+    flex-basis: calc((100% - 2 * 131px) / 3);
+}
 
 .about-number {
     font-weight: 600;
     font-size: 48px;
     line-height: 1.50;
     color: #2A3246;
+    margin-bottom: 6px;
 }
 
 .about-number-text {
@@ -262,11 +286,23 @@ img {
 
 .pricing-title {
     text-align: center;
+    margin-bottom: 60px;
 }
 
-.pricing-list {}
+.pricing-list {
+    height: max-content;
+    display: flex;
+    gap: 30px;
+}
 
 .pricing-item {}
+
+.pricing-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 
 .pricing-item-title {
     font-weight: 600;
@@ -274,39 +310,61 @@ img {
     line-height: 1.60;
     text-transform: capitalize;
     color: var(--secondary-title-color);
+    margin-top: 31px;
+    margin-bottom: 20px;
 }
 
 .pricing-text {
     font-size: 20px;
     line-height: 1.50;
     color: var(--text-color);
+    margin-bottom: 30px;
+    height: 100%;
+
+}
+
+.cost {
+    display: flex;
+    background-color: var(--cost-backround-color);
+    padding: 5px 29px;
+
 }
 
 .pricing-cost {
-    font-size: 18px;
-    line-height: 1.50;
-    text-align: center;
-    color: #546269;
-    background-color: var(--cost-backround-color);
-    border-radius: 5px;
-}
-
-.pricing-cost span {
     font-size: 24px;
     line-height: 1.50;
     text-align: center;
     color: var(--secondary-title-color);
+    margin-right: 21px;
 }
 
-/* ----------------------------contact-------------- */
+.cost-time {
+    font-size: 18px;
+    line-height: 1.50;
+    text-align: center;
+    color: #546269;
+}
 
-.contact-title {}
+
+/* ----------------------------contact-------------- */
+.contacts-container {
+    display: flex;
+}
+
+.contact-info {
+    margin-left: 145px;
+}
+
+.contact-title {
+    margin-bottom: 60px;
+}
 
 .contact-text {
     font-size: 20px;
     line-height: 1.50;
 
     color: var(--text-color);
+    margin-bottom: 30px;
 }
 
 .input-text {
@@ -329,6 +387,10 @@ img {
 }
 
 /* ------------------------foooter----------------- */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
 
 .footer-link {
     font-size: 24px;
@@ -337,4 +399,10 @@ img {
     align-items: center;
     letter-spacing: 0.02em;
     color: var(--text-color);
+}
+
+.footer-list {
+    display: flex;
+    gap: 80px;
+    align-items: center;
 }
