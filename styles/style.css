@@ -295,14 +295,17 @@ img {
     gap: 30px;
 }
 
-.pricing-item {}
-
-.pricing-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.pricing-item {
+    height: 100%;
 }
 
+.pricing-info {}
+
+.cost {
+    margin-top: auto;
+}
+
+.pricing-info:last-child {}
 
 .pricing-item-title {
     font-weight: 600;
@@ -390,6 +393,8 @@ img {
 .footer-container {
     display: flex;
     justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 77px;
 }
 
 .footer-link {
